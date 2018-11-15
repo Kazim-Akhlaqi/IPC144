@@ -1,0 +1,10 @@
+
+In line number 17 of your output:
+The output should be:
+Day  Hi  Low
+But your output is: 
+Day Hi Low
+    ^
+----|
+Professor's character ASCII code: hex(20), dec(32)
+un-matched character ASCII code: hex(48), dec(72)

@@ -1,0 +1,28 @@
+
+Name: Kazim Akhlaqi
+Student
+Number: 103638177
+
+Email: Kakhlaqi@myseneca.ca
+
+Section: IPC144SRR
+
+Workshop: Wk04 Array in_lab
+
+
+1) In one or two snetences explain why the arrays in this program have to be declared to hold 10 element?
+In this workshop we want to sotre the information for the high and low temperature of maximum 4 days but since the 
+the range of number of days we are allowed to choose is from 3 to 10, we declare the zise of arras to 10 to have
+enough storage to save the temparature information of 10 days.
+
+2) In two or three sentence explain the advantages and disadvantage of using matching arrays?
+Advantage: Parallel or matching arrays makes easier to store tabular information. As we use the same index to match 
+the data of two arryas through refering to same the index. 
+Disadvantage: Since in parallel arrays with use the same index to refer to values of each array, we might get the
+the wrong output if don't enter the data in the exact sequence we want to sotre.
+
+3) Was the at home portion of this workshop too easy, just right or too hard? Why?
+The home portion was quite challenging and it took me to test differrent iteration method to get the write output. 
+and specifically, although I had defined the _crt_secure_no_warnings pragma but I had a big strucgle with scanf 
+function during the compile time which I had to finnaly use ther secrue version of it.
+ 

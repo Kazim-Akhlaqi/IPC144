@@ -1,0 +1,11 @@
+Kazim Akhlaqi
+103638177
+A2MS4 Reflect
+
+Question 1 Answer:
+The 2 new function findContactIndex and getTenDigitPhone adds extra feature to code
+as the user can find a contact from the contact list by inseting the 10 digit phone
+number that is defined in getTenDigitPhone function.
+
+Question 2 Answer:
+This assignment helped me to review and use all functions we have learnt so far and specifically the most important  thing I learnt from this assignment is how to write a modular c program.

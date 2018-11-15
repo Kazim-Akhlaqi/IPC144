@@ -1,0 +1,48 @@
+/*
+Kazim Akhlaqi #103638177
+IPC144, Wk02 At_home
+cashRegister.c
+*/
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+
+    int loonies, quarters, dimes, nickels, pennies;
+    float amount, balanceL, balanceQ, balanceD, balanceN, balanceP;
+ 
+    printf("Please enter the amount to be paid: $"); // Ask user to print an amount
+    scanf("%f", &amount); // Get input from user
+    amount = amount * 1.13 + 0.005; // Calculate GST
+    printf("GST: 1.13\n"); // Print GST
+    
+    printf("Balance owing: $%.2f\n", amount);
+
+    loonies = amount;
+    printf("Loonies required: %d, ", loonies);
+    balanceL = amount - loonies;
+    printf("balance owing $%.2f\n", balanceL);
+
+    quarters = balanceL / 0.25;
+    printf("Quarters required: %d, ", quarters);
+    balanceQ = balanceL - quarters * 0.25;
+    printf("balance owing $%.2f\n", balanceQ);
+
+    dimes = balanceQ / 0.10;
+    printf("Dimes required: %d, ", dimes);
+    balanceD = balanceQ - dimes * 0.10;
+    printf("balance owing $%.2f\n", balanceD);
+
+    nickels = balanceD / 0.05;
+    printf("Nickels required: %d, ", nickels);
+    balanceN = balanceD - nickels * 0.05;
+    printf("balance owing $%.2f\n", balanceN);
+
+    pennies = balanceN / 0.01;
+    printf("Pennies required: %d, ", pennies);
+    balanceP = balanceN - pennies * 0.01;
+    printf("balance owing $%.2f\n", balanceP);
+
+    return 0;
+}

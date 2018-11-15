@@ -1,0 +1,9 @@
+Script started on Tue 30 Jan 2018 10:49:29 AM EST
+kakhlaqi@matrix:~/IPC144/w2> ws
+Please enter the amount to be paid: $8.68
+Loonies required: 8, balance owing $0.68
+Quarters required: 2, balance owing $0.18
+kakhlaqi@matrix:~/IPC144/w2> exit
+exit
+
+Script done on Tue 30 Jan 2018 11:09:46 AM EST

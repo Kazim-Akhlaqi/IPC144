@@ -1,0 +1,18 @@
+Kazim Akhlaqi #103638177
+IPC144SRR  WK03 temps.c Reflect
+
+1)Name all the iteration constructs.
+
+- while
+- do while
+- for
+
+2)In two or three sentences explain the difference between a do while and a while loop?
+The "while" executes the loop as long as the test condition is true but "do while" 
+executes is constuct first and continue the loop as long as it meets the condition.
+
+3)In two or three sentences explain what is meant by the term conditional expression?
+The conditional expression is a ternary operator that takes three operands as condition ? operand : operand.
+as The first operand converts to bool and evaluates and if it is true, the socond operand evaluates but 
+If the first operand evaluates to true (1), the second operand is evaluate but if the first operand is false
+the third operand is evaluated

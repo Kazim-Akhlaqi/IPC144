@@ -1,0 +1,22 @@
+Kazim Akhlaqi #103638177
+IPC144SRR, at_home Wk02 
+cashRegister.c
+
+1- What do think is the most important thing you learned in this workshop?
+I learnt how to declare vaiables of intergral and floating types in c language,
+I aslo learnt how to do simple math calculation with C operatros and expressions
+as well as using the Scanf to get the data from user and I learnt how to use type
+casting in c language.
+
+2- Why must you add .005 to the value derived when calculating the GST owing?
+We add .005 To the value derived when calculation the GST to round the value for GST to 1.13.
+GST = amountOwing * .13 + .005; which adding .005 to GST result in 1.13334 and
+the final amount will be roundedd to 1.13.
+
+3- What is the result of a casting operation?
+the casting operation converts type of a variable or value to another type and
+in this project the porpoes of casting is to convert the decimal value (float) to integer.
+
+4- Why do you think you were required to use the modulus operator in this workshop?
+We use the modulue in this workshop to display to remainder value ofte each division
+operation.

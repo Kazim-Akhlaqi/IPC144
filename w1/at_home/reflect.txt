@@ -1,0 +1,11 @@
+Name: Kazim AKhlaqi
+email: kakhlaqi@myseneca.ca
+student_id: 103638177
+
+By completing this project, I have learnt how to use nled text editor to create
+a text file in linux environment.
+I also leant how to write a program in C languge, compile and run it in linux.
+Although I have used different IDE application like Visual Studio to create
+a C project but creating a C project in linux was quite a new experiance.
+
+Thank you,

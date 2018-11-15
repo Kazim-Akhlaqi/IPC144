@@ -1,0 +1,279 @@
+Script started on Fri 09 Mar 2018 01:54:05 PM EST
+kakhlaqi@matrix:~/IPC144/a1ms2> ms2
+Contact Management System
+-------------------------
+Please enter the contact's first name: Tom
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): Wong
+Please enter the contact's last name: Song
+Please enter the contact's street number: 20
+Please enter the contact's street name: Keele
+Do you want to enter an appartment number? (y or n): y
+Please enter the contact's appartment number: 40
+Please enter the contact's postal code: A8A 4J4
+Please enter the contact's city: Toronto
+Do you want to enter a cell phone number? (y or n): 905-111-6666
+Do you want to enter a home phone number? (y or n): Do you want to enter a business phone number? (y or n): 
+Contact Details
+---------------
+Name Details
+First name: Tom
+Middle initial(s): Wong
+Last name: Song
+
+Address Details
+Street number: 20
+Street name: Keele
+Appartment: 40
+Postal code: A8A 4J4
+City: Toronto
+
+Phone Numbers:
+Cell phone number: 
+Home phone number: r·HHX·
+Business phone number: ·
+
+Structure test for Name, Address, and Numbers Done!
+kakhlaqi@matrix:~/IPC144/a1ms2> [Kkakhlaqi@matrix:~/IPC144/a1ms2> [Kkakhlaqi@matrix:~/IPC144/a1ms2> [1P[13Pms2[1P[K[1Pgcc -Wall -o ms2 a1ms2.c
+kakhlaqi@matrix:~/IPC144/a1ms2> ~nazsi[[[[Ksim.razavi/submit 144_a1ms2
+[H[JSubmitter (V0.94)
+Submitting Assignment 1 - Milestone 2
+gcc -Wall -o ms2 a1ms2.c 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[JFOLLOW THESE INSTRUCTIONS:
+1- Type ms2 and hit <ENTER>
+2- Use the test data specified in Assignment 1 - Milestone 2 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+kakhlaqi@matrix:~/IPC144/a1ms2> ms2
+Contact Management System
+-------------------------
+Please enter the contact's first name: Tom
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): Wong
+Please enter the contact's last name: Song
+Please enter the contact's street number: Keele
+Please enter the contact's street name: Do you want to enter an appartment number? (y or n): ^C
+kakhlaqi@matrix:~/IPC144/a1ms2> [1P[1P[K[1P[13Plsms2[1Pms[[[K~[Knasim.razavi/submit 144[K_a1ms2
+[H[JSubmitter (V0.94)
+Submitting Assignment 1 - Milestone 2
+gcc -Wall -o ms2 a1ms2.c 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[JFOLLOW THESE INSTRUCTIONS:
+1- Type ms2 and hit <ENTER>
+2- Use the test data specified in Assignment 1 - Milestone 2 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+kakhlaqi@matrix:~/IPC144/a1ms2> ms2
+Contact Management System
+-------------------------
+Please enter the contact's first name: Tom
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): Wong
+Please enter the contact's last name: Song
+Please enter the contact's street number: 20
+Please enter the contact's street name: Keele
+Do you want to enter an appartment number? (y or n): y
+Please enter the contact's appartment number: 40
+Please enter the contact's postal code: A8A 4J4
+Please enter the contact's city: Toronto
+Do you want to enter a cell phone number? (y or n): Y
+Please enter the contact's cell phone number: 905-111-6666
+Do you want to enter a home phone number? (y or n): Y
+Please enter the contact's home phone number: 705-222-7777
+Do you want to enter a business phone number? (y or n): Y
+Please enter the contact's business phone number: 416-333-8888
+
+Contact Details
+---------------
+Name Details
+First name: Tom
+Middle initial(s): Wong
+Last name: Song
+
+Address Details
+Street number: 20
+Street name: Keele
+Appartment: 40
+Postal code: A8A 4J4
+City: Toronto
+
+Phone Numbers:
+Cell phone number: 905-111-6666
+Home phone number: 705-222-7777
+Business phone number: 416-333-8888
+
+Structure test for Name, Address, and Numbers Done!
+kakhlaqi@matrix:~/IPC144/a1ms2> exit
+exit
+Script done, file is output.txt
+
+In line number 32 of your output:
+The output should be:
+Apartment: 40
+But your output is: 
+Appartment: 40
+  ^
+--|
+Professor's character ASCII code: hex(61), dec(97)
+un-matched character ASCII code: hex(70), dec(112)
+Outputs don't match. Submission aborted!
+kakhlaqi@matrix:~/IPC144/a1ms2> ms2[1P[13Pvi a1ms2.c 
+[1;60r[?25h[?0c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[60;1H"a1ms2.c" [dos] 173L, 5044C[1;1H[36m 82 [0m    printf([33m"Do you want to enter a cell phone number? (y or n): "[0m);
+[36m 83 [0m    scanf([33m" [0m[1m[33m%c[0m[33m"[0m, &condition);
+[36m 84 [0m    [1m[34mif[0m (condition == [33m'Y'[0m || condition == [33m'y'[0m) {
+[36m 85 [0m[7C printf([33m"Please enter the contact's cell phone number: "[0m);
+[36m 86 [0m[7C scanf([33m"[0m[1m[33m%s[0m[33m"[0m, numbers.cell);
+[36m 87 [0m    }
+[36m 88 
+ 89 
+ 90 [0m    printf([33m"Do you want to enter a home phone number? (y or n): "[0m);
+[36m 91 [0m    scanf([33m" [0m[1m[33m%c[0m[33m"[0m, &condition);
+[36m 92 [0m    [1m[34mif[0m (condition == [33m'Y'[0m || condition == [33m'y'[0m) {
+[36m 93 [0m[7C printf([33m"Please enter the contact's home phone number: "[0m);
+[36m 94 [0m[7C scanf([33m"[0m[1m[33m%s[0m[33m"[0m, numbers.home);
+[36m 95 [0m    }
+[36m 96 
+ 97 
+ 98 [0m    printf([33m"Do you want to enter a business phone number? (y or n): "[0m);
+[36m 99 [0m    scanf([33m" [0m[1m[33m%c[0m[33m"[0m, &condition);
+[36m100 [0m    [1m[34mif[0m (condition == [33m'Y'[0m || condition == [33m'y'[0m) {
+[36m101 [0m[7C printf([33m"Please enter the contact's business phone number: "[0m);
+[36m102 [0m[7C scanf([33m"[0m[1m[33m%s[0m[33m"[0m, numbers.business);
+[36m103 [0m    }
+[36m104 
+105 
+106 [0m    [32m// Display Contact Summary Details[0m
+[36m107 
+108 [0m    printf([33m"[0m[1m[33m\n[0m[33mContact Details[0m[1m[33m\n[0m[33m"[0m);
+[36m109 [0m    printf([33m"---------------[0m[1m[33m\n[0m[33m"[0m);
+[36m110 [0m    printf([33m"Name Details[0m[1m[33m\n[0m[33m"[0m);
+[36m111 [0m    printf([33m"First name: [0m[1m[33m%s\n[0m[33m"[0m, name.firstName);
+[36m112 [0m    printf([33m"Middle initial(s): [0m[1m[33m%s\n[0m[33m"[0m, name.middleInitial);
+[36m113 [0m    printf([33m"Last name: [0m[1m[33m%s\n[0m[33m"[0m, name.lastName);
+[36m114 
+115 [0m    printf([33m"[0m[1m[33m\n[0m[33mAddress Details[0m[1m[33m\n[0m[33m"[0m);
+[36m116 [0m    printf([33m"Street number: [0m[1m[33m%d\n[0m[33m"[0m, address.streetNumber);
+[36m117 [0m    printf([33m"Street name: [0m[1m[33m%s\n[0m[33m"[0m, address.street);
+[36m118 [0m    printf([33m"Appartment: [0m[1m[33m%d\n[0m[33m"[0m, address.apartmentNumber);
+[36m119 [0m    printf([33m"Postal code: [0m[1m[33m%s\n[0m[33m"[0m, address.postalCode);
+[36m120 [0m    printf([33m"City: [0m[1m[33m%s\n[0m[33m"[0m, address.city);
+[36m121 
+122 [0m    printf([33m"[0m[1m[33m\n[0m[33mPhone Numbers:[0m[1m[33m\n[0m[33m"[0m);
+[36m123 [0m    printf([33m"Cell phone number: [0m[1m[33m%s\n[0m[33m"[0m, numbers.cell);
+[36m124 [0m    printf([33m"Home phone number: [0m[1m[33m%s\n[0m[33m"[0m, numbers.home);
+[36m125 [0m    printf([33m"Business phone number: [0m[1m[33m%s\n[0m[33m"[0m, numbers.business);
+[36m126 
+127 [0m    [32m// Display Completion Message[0m
+[36m128 
+129 [0m    printf([33m"[0m[1m[33m\n[0m[33mStructure test for Name, Address, and Numbers Done![0m[1m[33m\n[0m[33m"[0m);
+[36m130 
+131 [0m    [1m[34mreturn[0m [33m0[0m;
+[36m132 [0m}
+[36m133 
+134 [0m[32m/*  SAMPLE OUTPUT:[0m
+[36m135 
+136 [0m[32mContact Management System[0m
+[36m137 [0m[32m-------------------------[0m
+[36m138 [0m[32mPlease enter the contact's first name: Tom[0m
+[36m139 [0m[32mDo you want to enter a middle initial(s)? (y or n): y[0m
+[33ma1ms2.c [dos] [C] [ASCII=110] [HEX=6E] [110,26][63%] [TOTAL=173]                                                                     [29;30H[?25h[?0c[?25l[?1c[0m[60;1H[31m-- INSERT --[0m[60;13H[K[29;30H[?25h[?0c[59;28H[33m5[7C73] [111,26][64[30;30H[59;27H08[7C6C] [112[31;30H[59;26H 92[7C5C] [113,26][65[32;30H[59;27H 0[7C00] [114,1][65%] [TOTAL=173] [33;5H[59;27H97[7C61] [115,26][66%] [TOTAL=173][34;30H[59;27H58[7C3A] [116,26][67[35;30H[59;27H37[7C25] [117[36;30H[59;26H100[7C64] [118,26][68[37;30H[59;26H 37[7C25] [119[38;30H[59;27H9[8C61] [120,26][69[39;30H[59;27H 0[7C00] [121,1][69%] [TOTAL=173] [40;5H[59;26H114[7C72] [122,26][70%] [TOTAL=173][41;30H[59;26H  0[7C00] [121,1][69%] [TOTAL=173] [40;5H[59;27H97[7C61] [120,26][69%] [TOTAL=173][39;30H[59;27H3[8C25] [119,26][68[38;30H[59;26H100[7C64] [118[37;30H[59;26H 37[7C25] [117,26][67[36;30H[59;26H100[7C64] [118,26][68[37;30H[59;26H 37[7C25] [119[38;30H[59;28H2[8C0[8C5[38;29H[59;27H58[7C3A[8C4[38;28H[59;26H101[7C65[8C3[38;27H[59;28H0[8C4[8C2[38;26H[59;27H11[8CF[8C1[38;25H[59;28H0[8CE] [118[37;25H[59;27H01[8C5[8C0[37;24H[59;28H9[8CD[7C19[37;23H[59;27H16[7C74[8C8[37;22H[59;28H4[8C2[8C7[37;21H[59;26H 97[7C61[8C6[37;20H[59;26H112[7C70[8C5[37;19H[?25l[?1partment: [0m[1m[33m%d\n[0m[33m"[0m, address.apartmentNumber);[37;60H[K[59;8H[33m[+] [dos] [C] [ASCII=112] [HEX=70] [118,14][68%] [TOTAL=173][37;18H[?25h[?0c[0m[60;1H[K[37;17H[?25l[?1c[59;29H[33m 65[7C41[8C3[37;17H[?25h[?0c[?25l[?1c[60;1H[0m:[?25h[?0cw[?25l[?1c[?25h[?0cq[?25l[?1c[?25h[?0c[?25l[?1c"a1ms2.c" [dos] 173L, 5043C written[?25h[?0c
+kakhlaqi@matrix:~/IPC144/a1ms2> ms2[1Pgcc -Wall -o ms2 a1ms2.c
+kakhlaqi@matrix:~/IPC144/a1ms2> [13Pms2~nasim.razavi/submit 144_a1ms2
+[H[JSubmitter (V0.94)
+Submitting Assignment 1 - Milestone 2
+gcc -Wall -o ms2 a1ms2.c 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[JFOLLOW THESE INSTRUCTIONS:
+1- Type ms2 and hit <ENTER>
+2- Use the test data specified in Assignment 1 - Milestone 2 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+kakhlaqi@matrix:~/IPC144/a1ms2> ms2
+Contact Management System
+-------------------------
+Please enter the contact's first name: Tom
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): Wong
+Please enter the contact's last name: Song
+Please enter the contact's street number: 20
+Please enter the contact's street name: Keele
+Do you want to enter an appartment number? (y or n): y
+Please enter the contact's appartment number: 40
+Please enter the contact's postal code: A8A 4J4
+Please enter the contact's city: Toronto
+Do you want to enter a cell phone number? (y or n): Y
+Please enter the contact's cell phone number: 905-111-6666
+Do you want to enter a home phone number? (y or n): Y
+Please enter the contact's home phone number: 705-222-7777
+Do you want to enter a business phone number? (y or n): Y
+Please enter the contact's business phone number: 416-333-8888
+
+Contact Details
+---------------
+Name Details
+First name: Tom
+Middle initial(s): Wong
+Last name: Song
+
+Address Details
+Street number: 20
+Street name: Keele
+Apartment: 40
+Postal code: A8A 4J4
+City: Toronto
+
+Phone Numbers:
+Cell phone number: 905-111-6666
+Home phone number: 705-222-7777
+Business phone number: 416-333-8888
+
+Structure test for Name, Address, and Numbers Done!
+kakhlaqi@matrix:~/IPC144/a1ms2> exit
+exit
+Script done, file is output.txt
+Success!... Outputs match.
+
+Would you like to submit this demonstration of Assignment 1 - Milestone 2? (Y)es/(N)o: Y
+Thank you!, Your work is now submitted.
+kakhlaqi@matrix:~/IPC144/a1ms2> [Kkakhlaqi@matrix:~/IPC144/a1ms2> [Kkakhlaqi@matrix:~/IPC144/a1ms2> [Kkakhlaqi@matrix:~/IPC144/a1ms2> [Kkakhlaqi@matrix:~/IPC144/a1ms2> [Kkakhlaqi@matrix:~/IPC144/a1ms2> exit
+exit
+Script done, file is output.txt
+
+In line number 9 of your output:
+The output should be:
+Please enter the contact's street number: 20
+But your output is: 
+Please enter the contact's street number: Keele
+                                          ^
+------------------------------------------|
+Professor's character ASCII code: hex(32), dec(50)
+un-matched character ASCII code: hex(4b), dec(75)
+Outputs don't match. Submission aborted!
+kakhlaqi@matrix:~/IPC144/a1ms2> [Kkakhlaqi@matrix:~/IPC144/a1ms2> ..
+kakhlaqi@matrix:~/IPC144> ..
+kakhlaqi@matrix:~> quite
+If 'quite' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+    cnf quite
+kakhlaqi@matrix:~> exit
+exit
+
+Script done on Fri 09 Mar 2018 04:51:10 PM EST

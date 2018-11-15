@@ -1,0 +1,12 @@
+Name: Kazim Akhlaqi
+Student number: 103638177
+Email: kakhlaqi@myseneca.ca
+Section: IPC144 - A2 - Reflect
+Date: March 20, 2018
+
+Q1 Answer:
+
+A function is a group of statements that together perform a task. The C language supports modular design through function syntax. Function makes add mudualrity to any programming language that supports fucntion.
+
+Q2 Answer:
+Because the functions in helpr fucntion module is not related to function in contacts module.

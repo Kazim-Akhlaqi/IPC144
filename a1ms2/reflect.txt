@@ -1,0 +1,11 @@
+Name: Kazim Akhlaqi
+Student number: 103638177
+Email: kakhlaqi@myseneca.ca
+Section: IPC144 A1MS2.c
+Date: March 7, 2018
+
+1 - Another efficient way to ask the user to input the required data is to use functions and pointers.
+
+2 - String in C language is an array of charecters, which to terminate or end an array of charecters we should
+use a null terminator "\0" to specify the end of string array. The null terminator while it specifies the end
+the end of an array of string, it also as a meaning full charecter occupys space in memory. Therefore when we want to allocate memory of a string we should initialize the array one number more than the requied number of charecters to allocate memory for the null charecter.

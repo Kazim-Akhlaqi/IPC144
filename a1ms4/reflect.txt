@@ -1,0 +1,23 @@
+/* -------------------------------------------
+Name: Kazim Akhlaqi
+Student number: 103638177
+Email: kakhlaqi@myseneca.ca
+Section: IPC 144 - A1MS4 reflect
+Date: March 14, 2018
+----------------------------------------------
+Assignment: 1
+Milestone: 4  
+---------------------------------------------- */
+
+1. Briefly explain why you think this assignment has asked you to code a struct, contact, that holds tree other structs
+as data members.
+
+Nesting structs (Name, Address, Numbers) under the new struct Contacts allow us to bring all three perivously 
+declared sturctures under one structure in "contacts.h" file. later by including this hearder file in "a1ms4.c" file,
+we can declare a new vriable "X" of type struct Contacts in our "a1ms4.c" file and finally pass the values stored in 
+each variable under substructs (Name, Address, Numbers) to a function just by passing the name of the new vairable "X"
+follow by a dot "." and the name of the variable that we need to access it's data.
+
+2. What was the most difficult part of this assignment? Undestanding the instuction. 
+
+3. How long did it take you to complete milestone 4? 2 Hours.
