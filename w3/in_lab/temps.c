@@ -11,39 +11,46 @@
 
 int main(void) {
 
-		int i;
-		int highTemp;
-		int lowTemp;
-		float totalTemp = 0;
-		float aveTemp;
+		int i = 0, highTemp = 0, lowTemp = 0;
+		double totalTemp = 0.0;
 	
-		printf("---=== IPC Temperature Analyzer ===---");
+		printf("---=== IPC Temperature Analyzer ===---\n");
 
 		for (i = 0; i < NUMS; i++)
 		{
-
-			printf("\nEnter the high value for day %d: ", i + 1);
+			printf("Enter the high value for day %d: ", i + 1);
 			scanf("%d", &highTemp);
 
-			printf("\nEnter the low value for day %d: ", i + 1);
+			printf("\n");
+
+			printf("Enter the low value for day %d: ", i + 1);
 			scanf("%d", &lowTemp);
 
-			while (highTemp < lowTemp || highTemp>40 || highTemp < -40 || lowTemp < -40 || lowTemp > 40) {
+			while (highTemp < lowTemp || highTemp > 40 || highTemp < -40 || lowTemp < -40 || lowTemp > 40) {
 
-				printf("\nIncorrect values, temperatures must be in the range -40 to 40, high must be greater than low.\n");
+				printf("\n");
 
-				printf("\nEnter the high value for day %d: ", i + 1);
+				printf("Incorrect values, temperatures must be in the range -40 to 40, high must be greater than low.\n");
+
+				printf("\n");
+
+				printf("Enter the high value for day %d: ", i + 1);
+
 				scanf("%d", &highTemp);
 
-				printf("\nEnter the low value for day %d: ", i + 1);
+				printf("\n");
+
+				printf("Enter the low value for day %d: ", i + 1);
 				scanf("%d", &lowTemp);
 			}
-			totalTemp = totalTemp + (float)highTemp + (float)lowTemp;
+			totalTemp += (double)highTemp + (double)lowTemp;
 		}
 
-		aveTemp = totalTemp /(NUMS * 2);
+		totalTemp /= (NUMS * 2);
 
-		printf("\nThe average (mean) temperature was: %.2f\n", aveTemp);
+		printf("\n");
+
+		printf("The average (mean) temperature was: %.2f\n", totalTemp);
 		
 		return 0;
 	}
